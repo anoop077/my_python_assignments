@@ -7,7 +7,7 @@ class circle:
 		self.r=int(input("enter the radius of the circle: "))
 	def getarea(self):
 		print("area of the circle is:",math.pi*self.r**2)
-	def getarea(self):
+	def getcircumference(self):
 		print("circumference of the circle is",2*math.pi*self.r)
 
 '''
@@ -41,7 +41,8 @@ class temp:
 		self.cel=c
 	def temp(self):
 		print("far to cel:",self.far-32*5/9)
-		print("cel to far:",self.cel*9/5+32)	
+		print("cel to far:",self.cel*9/5+32)
+	
 '''
 
 #question no4
